@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Milan Reyes">
+    <meta name="description" content="Portafolio de desarrollo web de Milan Reyes">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Milan Reyes | Desarrollador Web Full Stack</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light" id="main-navbar">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/icono.png" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero / Bienvenida -->
+    <section class="hero align-items-stretch scroll-animate">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/imagenes-desarrolladores/desarrollador-ejemplo.svg" alt="Foto de Milan Reyes">
+        <h1>¡Bienvenido a mi portafolio digital!</h1>
+        <h2>Transformando ideas en soluciones funcionales mediante líneas de código.<br>
+        <span style="font-size:1.1rem;color:#0d6efd;">Desarrollador Web Full Stack | Guatemala</span></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/hero-inferior.svg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+
+    <!-- Sobre mi / Información acerca de usted -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura scroll-animate">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Johan Tojin</h2>
+        <h3 class="seccion-subtitulo">Desarrollador Web Full Stack</h3>
+        <p class="seccion-texto">
+          Soy un apasionado de la programación con interés en crear soluciones prácticas y eficientes. Me especializo en el desarrollo web tanto en el frontend como en el backend.<br>
+          <span style="color:#7ade30;">Autodidacta, proactivo y siempre listo para nuevos retos.</span>
+        </p>
+        <div class="row mt-4">
+          <div class="col-md-6">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><strong>Nombre completo:</strong> Johan Tojin</li>
+              <li class="list-group-item"><strong>Edad:</strong> 19 años</li>
+              <li class="list-group-item"><strong>Correo electrónico:</strong> <a href="mailto:milan.reyes@email.com" style="color:#7ade30;">jtojinmiguel@email.com</a></li>
+              <li class="list-group-item"><strong>Teléfono:</strong> <a href="tel:+50237925858" style="color:#7ade30;">+502 3792 5858</a></li>
+              <li class="list-group-item"><strong>Ubicación:</strong> Guatemala</li>
+              <li class="list-group-item"><strong>Años programando:</strong> 2 años y medio </li>
+              <li class="list-group-item"><strong>Formación actual:</strong> Perito Tecnico en Informatica</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h4>Habilidades</h4>
+            <div class="skills-circles d-flex flex-wrap justify-content-center">
+              <div class="skill-circle">
+                <svg viewBox="0 0 80 80">
+                  <circle class="bg" cx="40" cy="40" r="34"/>
+                  <circle class="progress htmlcss" cx="40" cy="40" r="34"/>
+                </svg>
+                <div class="skill-label">HTML/CSS<br><span>90%</span></div>
+              </div>
+              <div class="skill-circle">
+                <svg viewBox="0 0 80 80">
+                  <circle class="bg" cx="40" cy="40" r="34"/>
+                  <circle class="progress js" cx="40" cy="40" r="34"/>
+                </svg>
+                <div class="skill-label">JavaScript<br><span>80%</span></div>
+              </div>
+              <div class="skill-circle">
+                <svg viewBox="0 0 80 80">
+                  <circle class="bg" cx="40" cy="40" r="34"/>
+                  <circle class="progress react" cx="40" cy="40" r="34"/>
+                </svg>
+                <div class="skill-label">React<br><span>75%</span></div>
+              </div>
+              <div class="skill-circle">
+                <svg viewBox="0 0 80 80">
+                  <circle class="bg" cx="40" cy="40" r="34"/>
+                  <circle class="progress node" cx="40" cy="40" r="34"/>
+                </svg>
+                <div class="skill-label">Node.js<br><span>70%</span></div>
+              </div>
+              <div class="skill-circle">
+                <svg viewBox="0 0 80 80">
+                  <circle class="bg" cx="40" cy="40" r="34"/>
+                  <circle class="progress java" cx="40" cy="40" r="34"/>
+                </svg>
+                <div class="skill-label">Java<br><span>65%</span></div>
+              </div>
+              <div class="skill-circle">
+                <svg viewBox="0 0 80 80">
+                  <circle class="bg" cx="40" cy="40" r="34"/>
+                  <circle class="progress sql" cx="40" cy="40" r="34"/>
+                </svg>
+                <div class="skill-label">MySQL/PG<br><span>75%</span></div>
+              </div>
+              <div class="skill-circle">
+                <svg viewBox="0 0 80 80">
+                  <circle class="bg" cx="40" cy="40" r="34"/>
+                  <circle class="progress git" cx="40" cy="40" r="34"/>
+                </svg>
+                <div class="skill-label">Git/GitHub<br><span>85%</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Currículum virtual (Educación y experiencia) -->
+    <section class="seccion-clara scroll-animate">
+      <div class="container">
+        <h2 class="seccion-titulo">Currículum Virtual</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <h4>Educación</h4>
+            <ul>
+              <li><strong>Ingeniería en Sistemas</strong> – Universidad Galileo (2022 - Actualidad)</li>
+              <li><strong>Desarrollo Web Full Stack</strong> – Platzi (2023)</li>
+              <li><strong>Certificado Git y GitHub</strong> – Udemy (2023)</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h4>Experiencia</h4>
+            <ul>
+              <li><strong>Preprácticas:</strong> Desarrollo de módulos CRUD con Spring Boot y React (2024)</li>
+              <li><strong>Prácticas (futuras):</strong> Programadas para el segundo semestre de 2025</li>
+            </ul>
+          </div>
+        </div>
+        <h4 class="mt-4">Proyectos personales y académicos</h4>
+        <ul>
+          <li><b>Sistema de reservas para canchas deportivas</b> – App web para gestionar reservas y horarios.</li>
+          <li><b>Aplicación de control de inventario</b> – CRUD en React + Node para pequeñas empresas.</li>
+          <li><b>Sitio web institucional ONG</b> – Página responsiva y accesible para organización local.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Proyectos (con capturas visuales y descripciones) -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column scroll-animate">
+      <h2 class="seccion-titulo texto-negro">Portafolio de Aplicaciones</h2>
+      <h3 class="seccion-descripcion">Algunos de mis proyectos destacados:</h3>
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto1.png" alt="Sistema de Reservaciones Deportivas">
+              <div class="overlay">
+                <p>Sistema de Reservaciones Deportivas</p>
+                <small>Gestión de reservas para canchas de fútbol.<br>
+                <b>Tecnologías:</b> React, Node.js, Express, MongoDB<br>
+                <b>Aprendizajes:</b> APIs RESTful, seguridad, sesiones.</small>
+                <div class="iconos-contenedor mt-2">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i> GitHub – Reservas
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto2.png" alt="Inventario CRUD con Spring Boot">
+              <div class="overlay">
+                <p>Inventario CRUD con Spring Boot</p>
+                <small>Inventario para empresa pequeña.<br>
+                <b>Tecnologías:</b> Java, Spring Boot, Thymeleaf, MySQL<br>
+                <b>Aprendizajes:</b> MVC, relaciones JPA, formularios seguros.</small>
+                <div class="iconos-contenedor mt-2">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i> GitHub – Inventario
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto3.png" alt="Sitio Web ONG Local">
+              <div class="overlay">
+                <p>Sitio Web ONG Local</p>
+                <small>Página institucional dinámica y accesible.<br>
+                <b>Tecnologías:</b> HTML, CSS, JavaScript, Bootstrap<br>
+                <b>Aprendizajes:</b> Maquetación responsiva, accesibilidad.</small>
+                <div class="iconos-contenedor mt-2">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i> GitHub – ONG Web
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ...puedes agregar más proyectos si lo deseas... -->
+    </section>
+
+    <!-- Articulos -->
+    <section class="articulos justify-content-start scroll-animate">
+      <h2 class="seccion-titulo texto-negro">Artículos</h2>
+      <div class="card">
+        <div class="card-header">
+          Más recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              El decorador @property en Python - cómo usarlo, ventajas y sintaxis
+            </li>
+          </a>
+          <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Python tutorial ciclos while - while True ejemplos de sintaxis y ciclos infinitos
+            </li>
+          </a>
+          <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Python leer archivo JSON - cómo cargar JSON desde un archivo y procesar dumps
+            </li>
+          </a>
+          <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Python cómo escribir en un archivo - abrir, leer, escribir y otras funciones de archivos explicadas
+            </li>
+          </a>
+          <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              ¿Para qué se usa Python? 10+ usos del lenguaje de programación Python
+            </li>
+          </a>
+        </ul>
+      </div>
+      <a href="https://www.freecodecamp.org/espanol/news/" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más artículos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara scroll-animate">
+      <h2 class="seccion-titulo">Testimonios</h2>
+      <h3 class="seccion-descripcion">Algunas palabras de quienes han trabajado conmigo:</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente1.svg" alt="Foto de Gino">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Gino</p>
+                <p class="cargo">Gerente de proyectos en DesarrolloWeb</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente2.svg" alt="Foto de Nora">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Nora</p>
+                <p class="cargo">Gerente de DiseñaMiPáginaWeb</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/cliente3.svg" alt="Foto de Leonardo">
+              <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Leonardo</p>
+                <p class="cargo">Director de AprendeAProgramar</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura scroll-animate">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              ¿Tienes una idea o proyecto? Escríbeme y hagámoslo realidad juntos.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="jtojinmiguel@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center scroll-animate"> 
+      <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">¿Listo para crear algo increíble?<br><b>¡Conectemos y llevemos tus ideas al siguiente nivel!</b></p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+ 
+        <a href="https://github.com/JohanMiguel" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/johan-acabal-040a63371?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+      
+        <a href="jtojinmiguel@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Johan Tojn (202) &#169; | <a href="#sobre-mi" style="color:#7ade30;">Sobre mí</a></div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script>
+      // Animación de navbar al hacer scroll
+      const navbar = document.getElementById('main-navbar');
+      window.addEventListener('scroll', function() {
+        if (window.scrollY > 40) {
+          navbar.classList.add('navbar-scrolled');
+        } else {
+          navbar.classList.remove('navbar-scrolled');
+        }
+      });
+
+      // Animaciones de aparición al hacer scroll
+      const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('in-view');
+            obs.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.15 });
+
+      document.querySelectorAll('.scroll-animate').forEach(section => {
+        observer.observe(section);
+      });
+    </script>
+  </body>
+</html>
