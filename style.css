@@ -393,17 +393,27 @@ h1 {
   padding-left: 18px;
 }
 
-/* Testimonios */
-.testimonios {
-  padding: 50px 0 80px 0;
-  background: linear-gradient(120deg, #e0eafc 60%, #f7fafd 100%);
+/* ...existing code... */
+.galeria-imagenes .carousel-inner {
+  background: #f8f9fa;
+  border-radius: 1rem;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.10);
 }
-
-.testimonios .carousel {
-  max-width: 800px;
-  animation: fadeInUp 1.1s 0.2s both;
+.galeria-imagenes img {
+  border-radius: 1rem;
+  object-fit: cover;
+  width: 100%;
+  max-height: 420px;
+  background: #e9ecef;
 }
-
+.galeria-imagenes .carousel-indicators [data-bs-target] {
+  background-color: #0d6efd;
+}
+.galeria-imagenes .carousel-control-prev-icon,
+.galeria-imagenes .carousel-control-next-icon {
+  filter: invert(1) grayscale(1);
+}
+/* ...existing code... */
 .carousel-item {
   height: 420px;
 }
