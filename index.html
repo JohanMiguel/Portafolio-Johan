@@ -54,7 +54,7 @@
     <!-- Seccion Hero / Bienvenida -->
     <section class="hero align-items-stretch scroll-animate">
       <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
-        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/imagenes-desarrolladores/desarrollador-ejemplo.svg" alt="Foto de Milan Reyes">
+<img class="hero-imagen-desarrollador rounded-circle" src="imagenes/johan.jpg" alt="Foto de Johan Tojin" style="width:100px;height:100px;object-fit:cover;">
         <h1>¡Bienvenido a mi portafolio digital!</h1>
         <h2>Transformando ideas en soluciones funcionales mediante líneas de código.<br>
         <span style="font-size:1.1rem;color:#0d6efd;">Desarrollador Web Full Stack | Guatemala</span></h2>
@@ -65,83 +65,147 @@
     </section>
 
     <!-- Sobre mi / Información acerca de usted -->
-    <section id="sobre-mi" class="sobre-mi seccion-oscura scroll-animate">
-      <div class="contenedor">
-        <h2 class="seccion-titulo">Johan Tojin</h2>
-        <h3 class="seccion-subtitulo">Desarrollador Web Full Stack</h3>
-        <p class="seccion-texto">
+<section id="sobre-mi" class="sobre-mi seccion-oscura scroll-animate">
+  <div class="contenedor">
+    <div class="row align-items-center flex-column flex-md-row">
+      <div class="col-md-4 text-center mb-4 mb-md-0 d-flex flex-column align-items-center">
+        <img src="imagenes/johan.jpg" alt="Foto de Johan Tojin" class="rounded-circle shadow-lg mb-3" style="width:160px;height:160px;object-fit:cover;border:5px solid #7ade30;animation:bounceIn 1.2s;">
+        <h2 class="seccion-titulo mt-2 mb-1">Johan Tojin</h2>
+        <h3 class="seccion-subtitulo mb-3">Desarrollador Web Full Stack</h3>
+        <ul class="list-group list-group-flush bg-dark rounded-3 shadow-sm w-100 mb-3">
+          <li class="list-group-item bg-transparent text-light"><strong>Nombre completo:</strong> Johan Tojin</li>
+          <li class="list-group-item bg-transparent text-light"><strong>Edad:</strong> 19 años</li>
+          <li class="list-group-item bg-transparent text-light"><strong>Correo electrónico:</strong> <a href="mailto:jtojinmiguel@gmail.com" style="color:#7ade30;">jtojinmiguel@gmail.com</a></li>
+          <li class="list-group-item bg-transparent text-light"><strong>Teléfono:</strong> <a href="tel:+50237925858" style="color:#7ade30;">+502 3792 5858</a></li>
+          <li class="list-group-item bg-transparent text-light"><strong>Ubicación:</strong> Guatemala</li>
+          <li class="list-group-item bg-transparent text-light"><strong>Años programando:</strong> 2 años y medio </li>
+          <li class="list-group-item bg-transparent text-light"><strong>Formación actual:</strong> Perito Técnico en Informática</li>
+        </ul>
+      </div>
+      <div class="col-md-8">
+        <p class="seccion-texto fs-5 mb-4">
           Soy un apasionado de la programación con interés en crear soluciones prácticas y eficientes. Me especializo en el desarrollo web tanto en el frontend como en el backend.<br>
           <span style="color:#7ade30;">Autodidacta, proactivo y siempre listo para nuevos retos.</span>
         </p>
-        <div class="row mt-4">
-          <div class="col-md-6">
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item"><strong>Nombre completo:</strong> Johan Tojin</li>
-              <li class="list-group-item"><strong>Edad:</strong> 19 años</li>
-              <li class="list-group-item"><strong>Correo electrónico:</strong> <a href="mailto:jtojinmiguel@gmail.com" style="color:#7ade30;">jtojinmiguel@gmail.com</a></li>
-              <li class="list-group-item"><strong>Teléfono:</strong> <a href="tel:+50237925858" style="color:#7ade30;">+502 3792 5858</a></li>
-              <li class="list-group-item"><strong>Ubicación:</strong> Guatemala</li>
-              <li class="list-group-item"><strong>Años programando:</strong> 2 años y medio </li>
-              <li class="list-group-item"><strong>Formación actual:</strong> Perito Tecnico en Informatica</li>
-            </ul>
+        <h4 class="text-light mb-3">Habilidades</h4>
+        <div class="skills-circles d-flex flex-wrap justify-content-center gap-3">
+          <!-- HTML/CSS -->
+          <div class="skill-circle skill-anim">
+            <svg viewBox="0 0 80 80" width="90" height="90">
+              <circle class="bg" cx="40" cy="40" r="34" style="stroke:#222;stroke-width:8;fill:none;"/>
+              <circle class="progress htmlcss" cx="40" cy="40" r="34"
+                style="stroke:#e44d26;stroke-width:8;fill:none;stroke-dasharray:213.6;stroke-dashoffset:21.36;filter:drop-shadow(0 0 8px #e44d26);transition:stroke-dashoffset 1.2s cubic-bezier(.68,-0.55,.27,1.55);"/>
+            </svg>
+            <div class="skill-label">HTML/CSS<br><span>90%</span></div>
           </div>
-          <div class="col-md-6">
-            <h4>Habilidades</h4>
-            <div class="skills-circles d-flex flex-wrap justify-content-center">
-              <div class="skill-circle">
-                <svg viewBox="0 0 80 80">
-                  <circle class="bg" cx="40" cy="40" r="34"/>
-                  <circle class="progress htmlcss" cx="40" cy="40" r="34"/>
-                </svg>
-                <div class="skill-label">HTML/CSS<br><span>90%</span></div>
-              </div>
-              <div class="skill-circle">
-                <svg viewBox="0 0 80 80">
-                  <circle class="bg" cx="40" cy="40" r="34"/>
-                  <circle class="progress js" cx="40" cy="40" r="34"/>
-                </svg>
-                <div class="skill-label">JavaScript<br><span>80%</span></div>
-              </div>
-              <div class="skill-circle">
-                <svg viewBox="0 0 80 80">
-                  <circle class="bg" cx="40" cy="40" r="34"/>
-                  <circle class="progress react" cx="40" cy="40" r="34"/>
-                </svg>
-                <div class="skill-label">React<br><span>75%</span></div>
-              </div>
-              <div class="skill-circle">
-                <svg viewBox="0 0 80 80">
-                  <circle class="bg" cx="40" cy="40" r="34"/>
-                  <circle class="progress node" cx="40" cy="40" r="34"/>
-                </svg>
-                <div class="skill-label">Node.js<br><span>70%</span></div>
-              </div>
-              <div class="skill-circle">
-                <svg viewBox="0 0 80 80">
-                  <circle class="bg" cx="40" cy="40" r="34"/>
-                  <circle class="progress java" cx="40" cy="40" r="34"/>
-                </svg>
-                <div class="skill-label">Java<br><span>65%</span></div>
-              </div>
-              <div class="skill-circle">
-                <svg viewBox="0 0 80 80">
-                  <circle class="bg" cx="40" cy="40" r="34"/>
-                  <circle class="progress sql" cx="40" cy="40" r="34"/>
-                </svg>
-                <div class="skill-label">MySQL/PG<br><span>75%</span></div>
-              </div>
-              <div class="skill-circle">
-                <svg viewBox="0 0 80 80">
-                  <circle class="bg" cx="40" cy="40" r="34"/>
-                  <circle class="progress git" cx="40" cy="40" r="34"/>
-                </svg>
-                <div class="skill-label">Git/GitHub<br><span>85%</span></div>
-              </div>
-            </div>
+          <!-- JavaScript -->
+          <div class="skill-circle skill-anim">
+            <svg viewBox="0 0 80 80" width="90" height="90">
+              <circle class="bg" cx="40" cy="40" r="34" style="stroke:#222;stroke-width:8;fill:none;"/>
+              <circle class="progress js" cx="40" cy="40" r="34"
+                style="stroke:#f7df1e;stroke-width:8;fill:none;stroke-dasharray:213.6;stroke-dashoffset:42.72;filter:drop-shadow(0 0 8px #f7df1e);transition:stroke-dashoffset 1.2s cubic-bezier(.68,-0.55,.27,1.55);"/>
+            </svg>
+            <div class="skill-label">JavaScript<br><span>60%</span></div>
+          </div>
+          <!-- React -->
+          <div class="skill-circle skill-anim">
+            <svg viewBox="0 0 80 80" width="90" height="90">
+              <circle class="bg" cx="40" cy="40" r="34" style="stroke:#222;stroke-width:8;fill:none;"/>
+              <circle class="progress react" cx="40" cy="40" r="34"
+                style="stroke:#61dafb;stroke-width:8;fill:none;stroke-dasharray:213.6;stroke-dashoffset:53.4;filter:drop-shadow(0 0 8px #61dafb);transition:stroke-dashoffset 1.2s cubic-bezier(.68,-0.55,.27,1.55);"/>
+            </svg>
+            <div class="skill-label">React<br><span>75%</span></div>
+          </div>
+          <!-- Node.js -->
+          <div class="skill-circle skill-anim">
+            <svg viewBox="0 0 80 80" width="90" height="90">
+              <circle class="bg" cx="40" cy="40" r="34" style="stroke:#222;stroke-width:8;fill:none;"/>
+              <circle class="progress node" cx="40" cy="40" r="34"
+                style="stroke:#68a063;stroke-width:8;fill:none;stroke-dasharray:213.6;stroke-dashoffset:64.08;filter:drop-shadow(0 0 8px #68a063);transition:stroke-dashoffset 1.2s cubic-bezier(.68,-0.55,.27,1.55);"/>
+            </svg>
+            <div class="skill-label">Node.js<br><span>70%</span></div>
+          </div>
+          <!-- Java -->
+          <div class="skill-circle skill-anim">
+            <svg viewBox="0 0 80 80" width="90" height="90">
+              <circle class="bg" cx="40" cy="40" r="34" style="stroke:#222;stroke-width:8;fill:none;"/>
+              <circle class="progress java" cx="40" cy="40" r="34"
+                style="stroke:#f89820;stroke-width:8;fill:none;stroke-dasharray:213.6;stroke-dashoffset:74.76;filter:drop-shadow(0 0 8px #f89820);transition:stroke-dashoffset 1.2s cubic-bezier(.68,-0.55,.27,1.55);"/>
+            </svg>
+            <div class="skill-label">Java<br><span>65%</span></div>
+          </div>
+          <!-- MySQL/PG -->
+          <div class="skill-circle skill-anim">
+            <svg viewBox="0 0 80 80" width="90" height="90">
+              <circle class="bg" cx="40" cy="40" r="34" style="stroke:#222;stroke-width:8;fill:none;"/>
+              <circle class="progress sql" cx="40" cy="40" r="34"
+                style="stroke:#00758f;stroke-width:8;fill:none;stroke-dasharray:213.6;stroke-dashoffset:53.4;filter:drop-shadow(0 0 8px #00758f);transition:stroke-dashoffset 1.2s cubic-bezier(.68,-0.55,.27,1.55);"/>
+            </svg>
+            <div class="skill-label">MySQL<br><span>75%</span></div>
+          </div>
+          <!-- Git/GitHub -->
+          <div class="skill-circle skill-anim">
+            <svg viewBox="0 0 80 80" width="90" height="90">
+              <circle class="bg" cx="40" cy="40" r="34" style="stroke:#222;stroke-width:8;fill:none;"/>
+              <circle class="progress git" cx="40" cy="40" r="34"
+                style="stroke:#f34f29;stroke-width:8;fill:none;stroke-dasharray:213.6;stroke-dashoffset:32.04;filter:drop-shadow(0 0 8px #f34f29);transition:stroke-dashoffset 1.2s cubic-bezier(.68,-0.55,.27,1.55);"/>
+            </svg>
+            <div class="skill-label">Git/GitHub<br><span>85%</span></div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
+<style>
+/* ...existing code... */
+@keyframes bounceIn {
+  0% { transform: scale(0.7); opacity: 0; }
+  60% { transform: scale(1.1); opacity: 1; }
+  80% { transform: scale(0.95);}
+  100% { transform: scale(1);}
+}
+.skill-circle {
+  margin: 10px 8px;
+  text-align: center;
+  position: relative;
+  width: 90px;
+  height: 110px;
+  background: rgba(30,30,30,0.7);
+  border-radius: 1rem;
+  box-shadow: 0 2px 16px #0006;
+  transition: transform 0.3s cubic-bezier(.68,-0.55,.27,1.55), box-shadow 0.3s;
+}
+.skill-circle:hover {
+  transform: scale(1.08) rotate(-2deg);
+  box-shadow: 0 8px 32px #7ade30cc;
+  z-index: 2;
+}
+.skill-label {
+  color: #fff;
+  font-size: 1rem;
+  margin-top: -10px;
+  font-family: 'Quicksand', monospace;
+  font-weight: bold;
+  text-shadow: 0 2px 8px #000a;
+}
+.skill-label span {
+  color: #7ade30;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+.skills-circles {
+  gap: 0.5rem;
+}
+.skill-anim {
+  animation: fadeInUp 1.1s cubic-bezier(.68,-0.55,.27,1.55);
+}
+@keyframes fadeInUp {
+  0% { opacity: 0; transform: translateY(40px);}
+  100% { opacity: 1; transform: none;}
+}
+/* ...existing code... */
+</style>
 
     <!-- Currículum virtual (Educación y experiencia) -->
     <section id="curriculum-virtual" class="seccion-clara scroll-animate">
@@ -215,7 +279,7 @@
               <ul>
                 <li>
                   <b>Ciclo Básico con Orientación Técnica</b><br>
-                  Centro Educativo Laboral KINAL, Guatemala <span style="color:gray;">| 2020 - 2022</span>
+                  Centro Educativo Laboral KINAL, Guatemala <span style="color:gray;">|-2020 - 2022</span>
                 </li>
                 <li>
                   <b>Perito Técnico en Informática</b><br>
@@ -524,7 +588,7 @@
     
     <!-- Pie de pagina (footer) -->
     <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center scroll-animate"> 
-      <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
+      <img class="footer-logo" src="imagenes/johan.jpg" alt="Logo del portafolio">
       <p class="footer-texto text-center">¿Listo para crear algo increíble?<br><b>¡Conectemos y llevemos tus ideas al siguiente nivel!</b></p>
       <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
  
@@ -539,7 +603,7 @@
           <i class="bi bi-envelope"></i>
         </a>
       </div>
-      <div class="derechos-de-autor">Creado por Johan Tojn (202) &#169; | <a href="#sobre-mi" style="color:#7ade30;">Sobre mí</a></div>
+      <div class="derechos-de-autor">Creado por Johan Tojn (2025) &#169; | <a href="#sobre-mi" style="color:#7ade30;">Sobre mí</a></div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
